@@ -79,5 +79,36 @@ p, li {
     padding: 0px 1%;
     background-color: #ccc;
     text-align: left;
-    
+}
+
+.places-pics {
+    max-inline-size: 20%;
+}
+
+.places-desc, .places-desc-reverse {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
+
+.places-desc-reverse {
+    padding-left: 1%;
+}
+
+.places-whole {
+    width: 90%;
+    padding-left: 1%;
+    display: flex;
+    border: 2px solid #ff9f70;
+    margin-bottom: 3vh;
+    background-color: #ffefe0;
+}
+
+.places-whole-reverse {
+    flex-direction: row-reverse;
+    width: 90%;
+    display: flex;
+    border: 2px solid #ff9f70;
+    margin-bottom: 3vh;
+    background-color: #ffefe0;
 }
