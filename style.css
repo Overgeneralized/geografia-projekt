@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+    margin: 1vh;
     font-size: 3vw;
 }
 
@@ -58,7 +59,7 @@ p, li {
     max-height: 8vh;
 }
 
-#container {
+#container-withad {
     display: flex;
     justify-content: space-between;
 }
@@ -70,4 +71,13 @@ p, li {
 #ad-img {
     margin-right: 2vw;
     max-height: 658px;
+}
+
+.offer-btn-link {
+    width: 90vw;
+    margin: 1vh 0px;
+    padding: 0px 1%;
+    background-color: #ccc;
+    text-align: left;
+    
 }
