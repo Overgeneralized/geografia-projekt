@@ -3,11 +3,15 @@ body {
 }
 
 h1 {
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
-p {
+h2 {
     font-size: 2vw;
+}
+
+p, li {
+    font-size: 1vw;
 }
 
 #navbar {
@@ -21,6 +25,8 @@ p {
 }
 
 .navlink {
+    color: #000;
+    text-decoration: none;
     padding: 20px 0px;
     margin: 0px 20px;
     position: relative;
@@ -63,4 +69,5 @@ p {
 
 #ad-img {
     margin-right: 2vw;
+    max-height: 658px;
 }
