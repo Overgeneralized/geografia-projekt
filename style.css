@@ -146,14 +146,14 @@ p, li {
 }
 
 #sponsors {
-    height: 30vh;
+    height: 40vh;
     padding-left: 5vw;
     padding-top: 1vh;
     background-color: #ff9f70;
 }
 
 #sponsors-gray {
-    height: 30vh;
+    height: 40vh;
     padding-left: 5vw;
     padding-top: 1vh;
     background-color: #bbb;
@@ -191,7 +191,7 @@ p, li {
     border: 2px solid #aa0;
     background-color: #ee0;
     width: 50vw;
-    height: 5vh;
+    height: 10vh;
 }
 
 .white-text {
