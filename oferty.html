@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Przelot podróże</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
 </head>
 <body>
     <div id="navbar">
         <img id="logo-img" src="assets/logo.png" alt="logo">
-        <a class="navlink" href="index.html">Strona główna</a>
-        <a class="navlink" href="oferty.html" id="selectednavlink">Oferty</a>
-        <a class="navlink">Tarnica</a>
-        <a class="navlink">asdf</a>
-        <a class="navlink">asdf</a>
-        <a class="navlink">asdf</a>
+        <div id="navbar-div">
+            <a class="navlink" href="index.html">Strona główna</a>
+            <a class="navlink" href="oferty.html" id="selectednavlink">Oferty</a>
+            <a class="navlink">Tarnica</a>
+        </div>
     </div>
     <br>
     <div id="container">
         <div id="text-container">
             <button class="offer-btn-link" type="button" onclick="location.href='podkarpacie.html';">
                 <h1>Podkarpacie</h1>
-                <p>costamcos</p>
+                <p class="offer-desc">Czas na niezapomnianą wycieczkę na Podkarpaciu! Weź udział w naszej trzydniowej wycieczce, aby odkryć uroki tego malowniczego regionu. Zanurz się w historii tego rejonu i poznaj lokalną kulturę. Rezerwuj już teraz i przygotuj się na niepowtarzalne przeżycie!</p>
             </button>
             <button class="offer-btn-link" type="button" onclick="location.href='https://www.youtube.com/watch?v=hESCdsNGXGs';">
                 <h1>Berlin</h1>
-                <p>Wir kommen nach Berlin!!!</p>
+                <p class="offer-desc">Wir kommen nach Berlin!!!</p>
             </button>
+        </div>
+        <div id="lightgray-rect"></div>
+        <div id="sponsors">
+            <h1>Sponsorzy:</h1>
+            <div id="sponsor-container">
+                <img src="assets/auto-bus-sponsor.png" alt="auto-bus-sponsor" class="sponsor-img">
+                <img src="assets/foto-sponsor.png" alt="foto-sponsor" class="sponsor-img">
+                <img src="assets/lingo-poli-sponsor.png" alt="lingo-poli-sponsor" class="sponsor-img">
+            </div>
         </div>
     </div>
 </body>

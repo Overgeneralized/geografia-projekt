@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-    margin: 1vh;
     font-size: 3vw;
 }
 
@@ -18,11 +17,16 @@ p, li {
 #navbar {
     width: 100%;
     height: 10vh;
-    background-color: coral;
+    background-color: #ff7f50;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+
+#navbar-div {
+    display: flex;
+    margin-right: 5vw;
 }
 
 .navlink {
@@ -57,6 +61,7 @@ p, li {
 
 #logo-img {
     max-height: 8vh;
+    margin-left: 5vw;
 }
 
 #container-withad {
@@ -74,6 +79,7 @@ p, li {
 }
 
 .offer-btn-link {
+    border-radius: 20px;
     width: 90vw;
     margin: 1vh 0px;
     padding: 0px 1%;
@@ -96,6 +102,8 @@ p, li {
 }
 
 .places-whole {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
     width: 90%;
     padding-left: 1%;
     display: flex;
@@ -105,10 +113,91 @@ p, li {
 }
 
 .places-whole-reverse {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     flex-direction: row-reverse;
     width: 90%;
     display: flex;
     border: 2px solid #ff9f70;
     margin-bottom: 3vh;
     background-color: #ffefe0;
+}
+
+#offer-plan {
+    border-radius: 20px;
+    border: 2px solid #8db8c6;
+    background-color: #cdf8ff;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+}
+
+#offer-plan-days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer-days-wrap {
+    border-radius: 20px;
+    border: 2px solid #8db8c6;
+    background-color: #bbf6ff;
+    margin-right: 2vw;
+    padding-left: 0.5vw;
+}
+
+#sponsors {
+    height: 30vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    background-color: #ff9f70;
+}
+
+#sponsors-gray {
+    height: 30vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    background-color: #bbb;
+}
+
+#sponsor-container {
+    display: flex;
+}
+
+.sponsor-img {
+    max-height: 20vh;
+}
+
+#lightgray-rect {
+    height: 10vh;
+    margin-top: 5vh;
+    background-color: #ffbf90;
+}
+
+#lightgray-rect-gray {
+    height: 10vh;
+    margin-top: 5vh;
+    background-color: #ddd;
+}
+
+#reserve-container {
+    border-radius: 20px;
+    border: 2px solid #bbb;
+    background-image: url(assets/nice-background.png);
+    padding: 0px 2vw 2vh;
+}
+
+#reserve-button {
+    border-radius: 20px;
+    border: 2px solid #aa0;
+    background-color: #ee0;
+    width: 50vw;
+    height: 5vh;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.offer-desc {
+    font-size: 1.5vw;
 }
