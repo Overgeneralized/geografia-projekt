@@ -14,6 +14,10 @@ p, li {
     font-size: 1vw;
 }
 
+.larger-text {
+    font-size: 1.5vw;
+}
+
 #navbar {
     width: 100%;
     height: 10vh;
@@ -223,4 +227,17 @@ p, li {
     border: 2px solid #8db8c6;
     background-color: #cdf8ff;
     padding-left: 2vw;
+}
+
+#special-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+#special-info-text {
+    border-radius: 20px;
+    border: 2px solid #ff9f70;
+    background-color: #ffefe0;
+    padding: 2vh 2vw;
+    margin-right: 5vw;
 }
