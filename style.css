@@ -150,6 +150,8 @@ p, li {
     padding-left: 5vw;
     padding-top: 1vh;
     background-color: #ff9f70;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #sponsors-gray {
@@ -157,6 +159,8 @@ p, li {
     padding-left: 5vw;
     padding-top: 1vh;
     background-color: #bbb;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #sponsor-container {
@@ -196,8 +200,16 @@ p, li {
 
 .white-text {
     color: #fff;
+    margin-left: 2vw;
 }
 
 .offer-desc {
     font-size: 1.5vw;
+}
+
+#offer-desc-container {
+    border-radius: 20px;
+    border: 2px solid #8db8c6;
+    background-color: #cdf8ff;
+    padding-left: 2vw;
 }
