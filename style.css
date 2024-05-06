@@ -187,7 +187,8 @@ p, li {
     border-radius: 20px;
     border: 2px solid #bbb;
     background-image: url(assets/nice-background.png);
-    padding: 0px 2vw 2vh;
+    padding: 5vh 5vw;
+    display: flex;
 }
 
 #reserve-button {
@@ -195,12 +196,22 @@ p, li {
     border: 2px solid #aa0;
     background-color: #ee0;
     width: 50vw;
-    height: 10vh;
+    height: auto;
 }
 
-.white-text {
+#offer-cost {
     color: #fff;
-    margin-left: 2vw;
+    font-size: 5vw;
+    margin: 0px 0px;
+}
+
+#offer-justfrom {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+#reserver-text-container {
+    margin-left: 5vw;
 }
 
 .offer-desc {
