@@ -75,6 +75,7 @@ p, li {
 
 #text-container {
     margin-left: 2vw;
+    width: 90vw;
 }
 
 #ad-img {
@@ -240,4 +241,22 @@ p, li {
     background-color: #ffefe0;
     padding: 2vh 2vw;
     margin-right: 5vw;
+}
+
+#main-page-desc-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#margin-up-text {
+    margin-top: auto;
+}
+
+.main-page-desc-text {
+    width: 20vw;
+}
+
+#sentence-2-text {
+    margin-top: 5vh;
 }
